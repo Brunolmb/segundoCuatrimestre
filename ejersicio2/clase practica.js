@@ -20,12 +20,6 @@ class cambioDeMarchas {
     bajarMarcha() {
         this.cambio = this.cambio - 1;
     }
-    subirCanal() {
-      this.canalActual = this.canalActual + 1;
-    }
-    bajarCanal() {
-        this.canalActual = this.canalActual -1;
-    }
 }
-let primerTelevisor = new Televisor(true, 20, 15);
-console.log(primerTelevisor);
+let cambioDeMarchas = new cambioDeMarchas(true, 20, 15);
+console.log(cambioDeMarchas);
